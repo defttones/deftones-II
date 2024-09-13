@@ -1,6 +1,6 @@
 body {
-    background-color: #1D4221;
-    color: white;
+    background-color: #1C1C1C; /* Cor de fundo escura para contraste */
+    color: #E0E0E0; /* Texto em um tom claro de cinza para contraste */
     font-family: "Bai Jamjuree", sans-serif;
     display: flex;
     justify-content: center;
@@ -10,9 +10,17 @@ body {
 }
 
 button {
-    background-color: #64A712;
-    color: white;
+    background-color: #4D4D4D; /* Botão em um cinza médio */
+    color: #E0E0E0; /* Texto do botão em cinza claro */
     font-family: "Bai Jamjuree", sans-serif;
+    border: none; /* Remove bordas do botão */
+    padding: 10px 20px; /* Adiciona algum espaçamento interno */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+}
+
+button:hover {
+    background-color: #6E6E6E; /* Tom um pouco mais claro ao passar o mouse */
 }
 
 .passo {
@@ -20,11 +28,19 @@ button {
 }
 
 .passo.ativo {
-    display:block;
+    display: block;
 }
 
 main {
     text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+    border: 2px solid #4D4D4D; /* Adiciona uma borda escura nas imagens para destacar */
+    border-radius: 5px; /* Arredonda os cantos da borda da imagem */
+}
     max-width: 90%;
 }
 
